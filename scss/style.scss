@@ -1,0 +1,19 @@
+$primaryBtn:dark blue;
+
+header{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $primaryBtn;
+    
+    button{
+        background: $primaryBtn;
+        &::after{
+            content: "Hello";
+        }
+    }
+
+}
+.contact button{
+    background: $primaryBtn;
+}
